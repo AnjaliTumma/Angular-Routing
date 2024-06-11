@@ -1,0 +1,34 @@
+.desc{
+    width: 60%;
+    height: 300px;
+    /* background-color: black; */
+    position: absolute;
+    top: 25%;
+    left: 22%;
+}
+.desc h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+.desc p{
+    color: white;
+    margin: 2.5rem 6rem;
+    font-size: 18px;
+}
+.desc .btn{
+    width: 150px;
+    height: 35px;
+    font-size: 20px;
+    color: white;
+    padding-top: 0.5rem;
+    text-align: center;
+    margin: 2rem 20rem;
+    border-radius: 20px;
+    border: 2px solid rgb(245, 239, 239);
+    transition: all ease 0.8s;
+}
+.desc .btn:hover{
+    cursor: pointer;
+    background-color: blue;
+}

@@ -1,0 +1,15 @@
+.ser{
+    width: 80%;
+    height: 400px;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    /* background-color: aqua; */
+}
+.ser img{
+    width: 80%;
+    height: 400px;
+    margin-left: 7rem;
+    box-shadow: 0px 0px 20px black;
+
+}

@@ -1,0 +1,19 @@
+<div class="body">
+    <img src="https://media.istockphoto.com/id/1328691808/vector/gradient-background-simple-light-blue-vector-design.jpg?s=612x612&w=0&k=20&c=4hrIcip7lB6WoSgc4sahJYTPSEM67EVi-7d4KtcGY9M=">
+    <div class="login_box">
+        <div class="title-div">
+            <i class="fa-solid fa-lock"></i>
+            <h1>Login</h1>
+        </div>
+        <form [formGroup]="fb" (ngSubmit)="onLogin()">
+            <input type="text" placeholder="Enter Username" formControlName="username">
+            <input type="password" placeholder="Enter Password" formControlName="password">
+            <a routerLink="../forgot-password">Forgot Password</a>
+            <input type="submit" value="Login">
+        </form>
+        <div class="signbox">
+            <strong>Don't have an  account? </strong>
+            <a routerLink="../register">Register</a>
+        </div>
+    </div>
+</div>
